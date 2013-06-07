@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFood.Demo", "FastFood.Demo\FastFood.Demo.csproj", "{DBD09E51-6E05-4A3A-8F8A-9B2D13F42FDD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{9261A093-22B5-4319-8B60-B50D6A817D45}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\NuGet.exe = SolutionItems\NuGet.exe
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
