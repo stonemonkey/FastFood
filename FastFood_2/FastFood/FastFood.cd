@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FastFood.Model.Bag">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Bag.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FastFood.Model.Burger">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="FastFood.Model.MealItemBase" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="4.305" />
+        <Point X="7" Y="5.875" />
+        <Point X="4.75" Y="5.875" />
+        <Point X="4.75" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\Burger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFood.Model.Drink">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\Drink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFood.Model.Fries">
+    <Position X="7.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Fries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFood.Model.MealItemBase">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\MealItemBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FastFood.Model.Toy">
+    <Position X="9.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\Toy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFood.FoWaiter">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAgAAiAAAAgAAAAQABBAAQIA=</HashCode>
+      <FileName>FoWaiter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFood.FoCateringOperations">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAABAAAAAAAAQIQAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FoCateringOperations.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FastFood.Ordering.Order">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ordering\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFood.FoPriceList">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAJEAABEAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAA=</HashCode>
+      <FileName>FoPriceList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="FastFood.Interface.ICateringOperations">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAQIQAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\ICateringOperations.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FastFood.Interface.IMealItem">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IMealItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FastFood.Interface.IPriceList">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAA=</HashCode>
+      <FileName>Interface\IPriceList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="FastFood.Ordering.BurgerTypes">
+    <Position X="4" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAIAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ordering\BurgerTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FastFood.Ordering.DrinkTypes">
+    <Position X="5.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ordering\DrinkTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FastFood.Ordering.ToyTypes">
+    <Position X="9.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ordering\ToyTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

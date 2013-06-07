@@ -1,0 +1,84 @@
+Servirea unui meniu intr-un fast-food.
+
+Un meniu cuprinde un burger, o bautura rece, cartofi si o jucarie. 
+La fiecare comanda, chelnerul va lua un burger, cartofii, bautura si jucaria si le va impacheta. 
+Exista 3 tipuri de burger disponibili: Vegetable, Fish si Chicken, 2 tipuri de bauturi: Cola si Orange si 2 tipuri de jucarii: Car si Doll. 
+Iar fiecare element din meniu are un pret.
+Comanda este fi o combinatie a acestora insa procesul este acelasi (burger,drink, fries, toy). 
+Acestea sunt puse intr-o punga si date clientului. 
+Inainte de a fi puse in punga, fiecare element in afara de jucarie este impachetat separat.
+So, ideea e un design pentru modelarea scenariului de mai sus.
+
+1. Nouns
+
+meniu 
+  burger (Vegetable, Fish si Chicken)
+  bautura (Cola si Orange)
+  cartofi
+  jucarie (Car si Doll)
+
+comanda
+
+chelnerul
+punga (hartie de impachetat?)
+client
+
+fiecare element din meniu are un pret
+fiecare element in afara de jucarie este impachetat separat.
+punga 
+client
+impacheta: impachetarea separata a elementelor, punerea in punga
+
+2. Use case
+
+Clientul intra in fast-food. 
+Clientul consulta meniul, isi alege optiunile,
+Merge la un chelner si face o comanda (bazat pe optiunile selectate).
+Chelnerul preia comanda, pregateste comanda
+	ia fiecare optiune selectata (burger, bautura, jucarie, cartofi)
+	burgerul, bautura si cartofii le impacheteaza
+	jucaria nu
+	le pune pe toate intr-o punga
+si i-i da la client.
+
+
+
+[Client]			[Chelner]
+- intra in fast food
+- consulta meniul
+- selecteaza optiunile
+	un burger
+	o racoritoare
+	jucarie
+- cere comanda de la chelner ----->
+				citeste comanda
+				ia punga
+				ia burgerul selectat
+				il impacheteaza
+				il pune in punga
+
+				ia bautura selectata
+				o impacheteaza
+				o pune in punga
+
+				ia niste cartofi
+				le impacheteaza
+				le pune in punga
+
+				ia jucaria selectata
+				o pune in punga
+
+	<-----------		da punga la client
+
+
+Chelner
+- fulfillOrder(order)
+	put items in bag
+		prepare item from order
+			(pack in paper if needed)
+
+Client
+- createOrder
+	select items from menu
+	put them in order
+

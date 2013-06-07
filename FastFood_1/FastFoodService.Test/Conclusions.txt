@@ -1,0 +1,10 @@
+﻿Looking back at the whole story I cannot wonder myself if a different approach where the Wrapping would still be a MenuItem (price 0) and could
+contain multiple Menu Items inside (a Bag containing a Bag containing the Menu Item) would represent a more interesting approach. Nevertheless,
+this solution is a very simple one addressing a simple scenario.
+
+Another point which I have to reflect on is the Waiter.Serve<1, 2, 3, 4> four generic types, which is a little too much. Still, this approach was
+taken as a refactoring of the Waiter.Serve(Type 1, Type 2, Type 3, Type 4) method since I couldn't find a way ensuring that the Type is a MenuItem
+and not a ... Car :D. Sending instances of Menu Items to Waiter is also not correct, Waiter's responsibility being the one to Create these instances,
+not the caller.
+
+Since the problem statement sounded so simple I was sure that the whole design + implementation will last one day ... of how wrong was I. It lasted three.

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FastFoodService.MenuItems.Toy" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItems\Toy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFoodService.MenuItems.MenuItem" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAAAAAAABAAA=</HashCode>
+      <FileName>MenuItems\MenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFoodService.MenuItems.Burger" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItems\Burger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFoodService.MenuItems.FrenchFries" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItems\FrenchFries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFoodService.MenuItems.Soda" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItems\Soda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFoodService.MenuItems.Sodas.CocaColaSoda" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItems\Sodas\CocaColaSoda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFoodService.MenuItems.Burgers.ChickenBurger" Collapsed="true">
+    <Position X="1.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItems\Burgers\ChickenBurger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFoodService.MenuItems.Burgers.VegetableBurger" Collapsed="true">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItems\Burgers\VegetableBurger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFoodService.MenuItems.Burgers.FishBurger" Collapsed="true">
+    <Position X="3.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItems\Burgers\FishBurger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFoodService.MenuItems.Chips.StandardFrenchFries" Collapsed="true">
+    <Position X="8" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItems\Chips\StandardFrenchFries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFoodService.MenuItems.Toys.DollToy" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItems\Toys\DollToy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFoodService.MenuItems.Toys.CarToy" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItems\Toys\CarToy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFoodService.MenuItems.Menu" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItems\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastFoodService.MenuItems.Sodas.OrangeSoda" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuItems\Sodas\OrangeSoda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
